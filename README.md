@@ -25,3 +25,8 @@ This will run your script (photo.sh) to fetch a photo from your favourites in yo
 
 If you put a file called "NOT_SHUTDOWN" in the /boot folder it will not shutdown your Pi after updating the display. This allows you to remove the SD card from the PI and insert it into your desktop, put this file in place, and then when you put it back into your PI, your Pi will remain powered on.
 
+# Google API
+I think these are the guides I followed to setup my API access.
+- https://developers.google.com/photos/library/samples
+- https://developers.google.com/photos/library/guides/get-started 
+
