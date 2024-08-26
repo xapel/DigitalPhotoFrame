@@ -25,7 +25,7 @@ exit 0
 ```
 This will run your script (photo.sh) to fetch a photo from your favourites in your google photos library. It will filter out photos in landscape and select a portrait one at random and then resize it and upload it to the display. Then it will shutdown and the image will remain on the display.
 
-If you put a file called "NOT_SHUTDOWN" in the /boot folder it will not shutdown your Pi after updating the display. ALternatively, you can also short pins 37 and pin 38 to prevent the shutdown (detect_37_38_shorted.py).  This allows you to remove the SD card from the PI and insert it into your desktop, put this file in place, and then when you put it back into your PI, your Pi will remain powered on.
+If you put a file called "NOT_SHUTDOWN" in the /boot folder it will not shutdown your Pi after updating the display. This allows you to remove the SD card from the PI and insert it into your desktop, put this file in place, and then when you put it back into your PI, your Pi will remain powered on after the display update. Alternatively, you can also short pins 37 and pin 38 to prevent the shutdown (detect_37_38_shorted.py).  
 
 # Google API
 I think these are the guides I followed to setup my API access.
