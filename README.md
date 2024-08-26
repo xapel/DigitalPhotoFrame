@@ -15,7 +15,7 @@ su pi -c '/home/pi/project/v1/photo.sh'
 
 #shutdown (unless NOT_SHUTDOWN file is there)
 FILE=/boot/NOT_SHUTDOWN;
-if [ -e $FILE ] || [python3 detect_37_38_short.py]; then
+if [ -e $FILE ] || python3 detect_37_38_short.py; then
     exit 0
 else 
     shutdown -h now ; 
